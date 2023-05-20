@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;500&display=swap');
+html {
+    background-color: #432b55;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.bg {
+    position: fixed;
+    opacity: 0.15;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+nav {
+    position: fixed;
+    width: 99%;
+    text-align: center;
+    padding-bottom: 15px;
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+}
+
+.navbar_icon {
+    position: absolute;
+    left: 0px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    margin: 0px 0px 0px 18px;
+    font-family: 'Bad Script', cursive;
+    color: #d2aeff;
+    font-size: 35px;
+}
+
+.navbar_elements {
+    align-self: start;
+    text-align: start;
+    display: inline-block;
+    position: static;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+    color: #d2aeff;
+    font-size: 30px;
+    padding: 0px 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.navbar_elements:hover {
+    color: #ffffff;
+}
+
+.navbar_button {
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 15px 15px 8px 0px;
+    color: #000000;
+    text-align: start;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-left: 20px;
+    border: 3px solid #7b4f99;
+    background-color: #d0affa;
+    position: absolute;
+    right: 0px;
+}
+
+.navbar_button:hover {
+    color: #d2aeff;
+    background-color: #432b55;
+    border: 3px solid #d2aeff;
+}
+
+.home {
+    display: flex;
+    height: 100vh;
+  }
+
+.home_intro, .home_links {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_intro p {
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Prompt', sans-serif;
+    color: #ffffff;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.home_intro .name {
+    color: #d0affa;
+    text-shadow: 0 0 10px #c294fa, 0 0 20px #c294fa, 0 0 30px #8d46eb, 0 0 40px #8d46eb, 0 0 50px #8d46eb, 0 0 60px #8d46eb, 0 0 70px #8d46eb;
+}
+
+.home_intro .howdy_emoji {
+    width: 50px;
+    padding-top: 10px;
+    position: relative;
+    top: 11px;
+    left: 5px;
+}
+
+.home_links{
+    width: 50%; 
+    float: right;
+}
+
+
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #181717;
+    outline: 3px #181717 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    color: white;
+  }
+  
+  .button .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+  }
+  
+  .button svg path {
+    transition: 400ms;
+  }
+  
+  .button:hover {
+    background-color: #432b55;
+  }
+  
+  .button:hover .text {
+    color: #181717;
+  }
+  
+  .button:hover svg path {
+    fill: #181717;
+  }
