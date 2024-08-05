@@ -602,44 +602,7 @@ nav {
   color: #ffffff;
 }
 
-.skills-division {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.skills-container {
-  display: grid;
-  gap: 16px;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-}
-
-.skill-card {
-  background-color: #432b55; /* Card background color */
-  border-radius: 8px;
-  padding: 16px;
-  text-align: center;
-  color: #d2aeff; /* Text color */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border: 1px solid #7b4f99; /* Border color */
-}
-
-.skill-card img, .skill-card svg {
-  width: 48px;
-  height: 48px;
-  margin-bottom: 8px;
-}
-
-.skill-card p {
-  margin-top: 8px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 16px;
-  color: #d0affa; /* Secondary text color */
-}
-
-.skill-card:hover {
-  background-color: #d0affa; /* Hover background color */
-  color: #432b55; /* Hover text color */
+.svg-icon {
+  fill: #d2aeff;
+  stroke: #d2aeff;
 }
