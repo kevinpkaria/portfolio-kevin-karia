@@ -5,22 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Kevin Karia's portfolio - Showcasing expertise in AI, Machine Learning, and software development. Explore professional experiences, innovative projects, and educational content. Let's connect!">
     <title>Kevin Karia</title>
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.trunk.min.js" as="script">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" as="style">
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" as="style">
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;500&display=swap" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;500&display=swap"
+        as="style">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="source/kLogo.png" type="image/icon type">
 </head>
 
 <body>
     <div class="bg" id="bg"></div>
+
     <div class="overlay" id="overlay"></div>
+
     <nav>
         <a href="#home" class="navbar_icon">
             <p>Kevin Karia</p>
@@ -115,7 +121,7 @@
                                     d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
                             </svg>
                         </a>
-                        <a href="mailto:kevinpkaria@gmail.com"
+                        <a href="mailto:hello@kevinpkaria.in"
                             class="inline-flex h-10 items-center justify-center rounded-md bg-background px-4 py-2 text-muted-foreground shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
                             <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="32"
                                 height="32">
@@ -278,11 +284,10 @@
 
                     <!-- Project 5: CV Builder -->
                     <div class="project-card">
-                        <a href="https://drive.google.com/file/d/1aq3XMhVxDo12ojyJmDmL26qjxlrdoiaX/view" target="_blank"
-                            class="project-link">
+                        <a href="https://youtu.be/3AmRNnmAPFM" target="_blank" class="project-link">
                             <span class="sr-only">View project</span>
                         </a>
-                        <img src="/source/CVBuilder.png" alt="Neural Theft (2022)" class="project-image" />
+                        <img src="/source/CVBuilder.png" alt="CV Builder (2023)" class="project-image" />
                         <div class="project-content">
                             <h3>CV Builder (2023)</h3>
                             <p>A dynamic CV Builder web application, which enables users to generate professional
@@ -306,261 +311,388 @@
                     </div>
                 </div>
         </section>
-
     </div>
 
-    <div style="height: 100vh;" id="skills" class="division">
-        <section class="skills-section">
-            <div class="container">
+
+        <div id="skills" style="min-height: 100vh;" class="division">
+            <section class="skills-section">
+                <div class="container">
+                    <div class="text-center">
+                        <h2 class="title text-4xl sm:text-4xl md:text-6xl lg:text-6xl xl:text-6xl"
+                            style="color: #d2aeff;">
+                            Skills</h2>
+                        <p class="subtitle text-2xl sm:text-2xl md:text-4xl lg:text4xl xl:text-4xl pro_subhead"
+                            style="color: #d0affa;">
+                            My Tech ToolBox
+                        </p>
+                    </div>
+                    <div class="flex flex-col items-center space-y-8">
+                        <div class="grid gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/pythonLogo.svg" width="24" height="24" class="w-12 h-12">
+                                <p class="mt-2 text-center">Python</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/javaLogo.svg" width="24" height="24" class="w-12 h-12">
+                                <p class="mt-2 text-center">Java</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/JSLogo.svg" width="24" height="24" class="w-12 h-12">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M12 2a7 7 0 1 0 10 10"></path>
+                                </svg>
+                                <p class="mt-2 text-center">JavaScript</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="w-12 h-12">
+                                    <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                    <path d="M3 5V19A9 3 0 0 0 21 19V5"></path>
+                                    <path d="M3 12A9 3 0 0 0 21 12"></path>
+                                </svg>
+                                <p class="mt-2 text-center">SQL</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/c++Logo.svg" width="24" height="24" class="w-12 h-12">
+                                <path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"></path>
+                                <path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
+                                <path d="M12 2v2"></path>
+                                <path d="M12 22v-2"></path>
+                                <path d="m17 20.66-1-1.73"></path>
+                                <path d="M11 10.27 7 3.34"></path>
+                                <path d="m20.66 17-1.73-1"></path>
+                                <path d="m3.34 7 1.73 1"></path>
+                                <path d="M14 12h8"></path>
+                                <path d="M2 12h2"></path>
+                                <path d="m20.66 7-1.73 1"></path>
+                                <path d="m3.34 17 1.73-1"></path>
+                                <path d="m17 3.34-1 1.73"></path>
+                                <path d="m11 13.73-4 6.93"></path>
+                                </svg>
+                                <p class="mt-2 text-center">C++</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/CLogo.png" width="24" height="24" class="w-12 h-12">
+                                </svg>
+                                <p class="mt-2 text-center">C</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/tfLogo.svg" width="24" height="24" class="w-12 h-12">
+                                <path d="M13.73 4a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path>
+                                </svg>
+                                <p class="mt-2 text-center">Tensorflow</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/pytorchLogo.svg" width="24" height="24" class="w-12 h-12">
+                                <path
+                                    d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z">
+                                </path>
+                                </svg>
+                                <p class="mt-2 text-center">PyTorch</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/djangoLogo.svg" width="24" height="24" class="w-12 h-12">
+                                </svg>
+                                <p class="mt-2 text-center">Django</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/langchainLogo.png" width="24" height="24" class="w-12 h-12">
+                                <path d="M8 20V8c0-2.2 1.8-4 4-4 1.5 0 2.8.8 3.5 2"></path>
+                                <path d="M6 12h4"></path>
+                                <path d="M14 12h2v8"></path>
+                                <path d="M6 20h4"></path>
+                                <path d="M14 20h4"></path>
+                                </svg>
+                                <p class="mt-2 text-center">Langchain</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/openAiLogo.png" width="24" height="24" class="w-12 h-12">
+                                </svg>
+                                <p class="mt-2 text-center">OpenAI API</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/fastApiLogo.png" width="24" height="24" class="w-12 h-12">
+                                </svg>
+                                <p class="mt-2 text-center">FastAPI</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/flaskLogo.png" width="24" height="24" class="w-12 h-12">
+                                </svg>
+                                <p class="mt-2 text-center">Flask</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/gradioLogo.png" width="24" height="24" class="w-12 h-12">
+                                </svg>
+                                <p class="mt-2 text-center">Gradio</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/streamlitLogo.svg" width="24" height="24" class="w-12 h-12">
+                                </svg>
+                                <p class="mt-2 text-center">Streamlit</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/roboflowLogo.png" width="24" height="24" class="w-12 h-12">
+                                </svg>
+                                <p class="mt-2 text-center">Roboflow</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/gitLogo.png" width="24" height="24" class="w-12 h-12">
+                                </svg>
+                                <p class="mt-2 text-center">Git</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/microsoftOfficeLogo.png" width="24" height="24" class="w-12 h-12">
+                                </svg>
+                                <p class="mt-2 text-center">Microsoft Office</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/inteliiJLogo.png" width="24" height="24" class="w-12 h-12">
+                                </svg>
+                                <p class="mt-2 text-center">IntelliJ</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/adobeLogo.png" width="24" height="24" class="w-12 h-12">
+                                </svg>
+                                <p class="mt-2 text-center">Adobe Premiere Pro</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/LLMLogo.png" width="24" height="24" class="w-12 h-12">
+                                </svg>
+                                <p class="mt-2 text-center">LLM Engineering</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/dockerLogo.png" width="24" height="24" class="w-12 h-12">
+                                </svg>
+                                <p class="mt-2 text-center">Docker</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/kubernetesLogo.png" width="24" height="24" class="w-12 h-12">
+                                <p class="mt-2 text-center">Kubernetes</p>
+                            </div>
+                            <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
+                                data-v0-t="card">
+                                <img src="source/svgs/azureLogo.png" width="24" height="24" class="w-12 h-12">
+                                </svg>
+                                <p class="mt-2 text-center">Azure DevOps</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="youtube" style="min-height: 100vh;" class="division">
+            <section class="projects-section">
                 <div class="text-center">
-                    <h2 class="title text-4xl sm:text-4xl md:text-6xl lg:text-6xl xl:text-6xl" style="color: #d2aeff;">
-                        Skills</h2>
-                    <p class="subtitle text-2xl sm:text-2xl md:text-4xl lg:text4xl xl:text-4xl pro_subhead"
-                        style="color: #d0affa;">
-                        My Tech ToolBox
+                    <h2 class="title text-4xl sm:text-4xl md:text-6xl lg:text-6xl xl:text-6xl">Projects</h2>
+                    <p class="subtitle text-2xl sm:text-2xl md:text-4xl lg:text4xl xl:text-4xl pro_subhead">
+                        Innovations & Creations
                     </p>
                 </div>
-                <div class="flex flex-col items-center space-y-8">
-                    <div class="grid gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/pythonLogo.svg" width="24" height="24" class="w-12 h-12">
-                            <p class="mt-2 text-center">Python</p>
+                <section class="grid grid-cols-1 gap-6 p-4 md:grid-cols-3 md:p-6">
+                    <div class="relative overflow-hidden rounded-lg shadow-lg container">
+                        <div class="aspect-video">
+
+
+
+                            <style>
+                                .embed-container {
+                                    position: relative;
+                                    padding-bottom: 56.25%;
+                                    height: 0;
+                                    overflow: hidden;
+                                    max-width: 100%;
+                                }
+
+                                .embed-container iframe,
+                                .embed-container object,
+                                .embed-container embed {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            </style>
+                            <div class='embed-container'><iframe src='https://www.youtube.com/embed/bOcg5-5-1tg'
+                                    frameborder='0' allowfullscreen></iframe></div>
                         </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/javaLogo.svg" width="24" height="24" class="w-12 h-12">
-                            <p class="mt-2 text-center">Java</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/JSLogo.svg" width="24" height="24" class="w-12 h-12">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <path d="M12 2a7 7 0 1 0 10 10"></path>
-                            </svg>
-                            <p class="mt-2 text-center">JavaScript</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="w-12 h-12">
-                                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
-                                <path d="M3 5V19A9 3 0 0 0 21 19V5"></path>
-                                <path d="M3 12A9 3 0 0 0 21 12"></path>
-                            </svg>
-                            <p class="mt-2 text-center">SQL</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/c++Logo.svg" width="24" height="24" class="w-12 h-12">
-                            <path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"></path>
-                            <path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
-                            <path d="M12 2v2"></path>
-                            <path d="M12 22v-2"></path>
-                            <path d="m17 20.66-1-1.73"></path>
-                            <path d="M11 10.27 7 3.34"></path>
-                            <path d="m20.66 17-1.73-1"></path>
-                            <path d="m3.34 7 1.73 1"></path>
-                            <path d="M14 12h8"></path>
-                            <path d="M2 12h2"></path>
-                            <path d="m20.66 7-1.73 1"></path>
-                            <path d="m3.34 17 1.73-1"></path>
-                            <path d="m17 3.34-1 1.73"></path>
-                            <path d="m11 13.73-4 6.93"></path>
-                            </svg>
-                            <p class="mt-2 text-center">C++</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/CLogo.png" width="24" height="24" class="w-12 h-12">
-                            </svg>
-                            <p class="mt-2 text-center">C</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/tfLogo.svg" width="24" height="24" class="w-12 h-12">
-                            <path d="M13.73 4a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path>
-                            </svg>
-                            <p class="mt-2 text-center">Tensorflow</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/pytorchLogo.svg" width="24" height="24" class="w-12 h-12">
-                            <path
-                                d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z">
-                            </path>
-                            </svg>
-                            <p class="mt-2 text-center">PyTorch</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/djangoLogo.svg" width="24" height="24" class="w-12 h-12">
-                            </svg>
-                            <p class="mt-2 text-center">Django</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/langchainLogo.png" width="24" height="24" class="w-12 h-12">
-                            <path d="M8 20V8c0-2.2 1.8-4 4-4 1.5 0 2.8.8 3.5 2"></path>
-                            <path d="M6 12h4"></path>
-                            <path d="M14 12h2v8"></path>
-                            <path d="M6 20h4"></path>
-                            <path d="M14 20h4"></path>
-                            </svg>
-                            <p class="mt-2 text-center">Langchain</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/openAiLogo.png" width="24" height="24" class="w-12 h-12">
-                            </svg>
-                            <p class="mt-2 text-center">OpenAI API</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/fastApiLogo.png" width="24" height="24" class="w-12 h-12">
-                            </svg>
-                            <p class="mt-2 text-center">FastAPI</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/flaskLogo.png" width="24" height="24" class="w-12 h-12">
-                            </svg>
-                            <p class="mt-2 text-center">Flask</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/gradioLogo.png" width="24" height="24" class="w-12 h-12">
-                            </svg>
-                            <p class="mt-2 text-center">Gradio</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/streamlitLogo.svg" width="24" height="24" class="w-12 h-12">
-                            </svg>
-                            <p class="mt-2 text-center">Streamlit</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/roboflowLogo.png" width="24" height="24" class="w-12 h-12">
-                            </svg>
-                            <p class="mt-2 text-center">Roboflow</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/gitLogo.png" width="24" height="24" class="w-12 h-12">
-                            </svg>
-                            <p class="mt-2 text-center">Git</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/microsoftOfficeLogo.png" width="24" height="24" class="w-12 h-12">
-                            </svg>
-                            <p class="mt-2 text-center">Microsoft Office</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/inteliiJLogo.png" width="24" height="24" class="w-12 h-12">
-                            </svg>
-                            <p class="mt-2 text-center">IntelliJ</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/adobeLogo.png" width="24" height="24" class="w-12 h-12">
-                            </svg>
-                            <p class="mt-2 text-center">Adobe Premiere Pro</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/LLMLogo.png" width="24" height="24" class="w-12 h-12">
-                            </svg>
-                            <p class="mt-2 text-center">LLM Engineering</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/dockerLogo.png" width="24" height="24" class="w-12 h-12">
-                            </svg>
-                            <p class="mt-2 text-center">Docker</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/kubernetesLogo.png" width="24" height="24" class="w-12 h-12">
-                            <p class="mt-2 text-center">Kubernetes</p>
-                        </div>
-                        <div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col items-center justify-center p-4 skill_card"
-                            data-v0-t="card">
-                            <img src="source/svgs/azureLogo.png" width="24" height="24" class="w-12 h-12">
-                            </svg>
-                            <p class="mt-2 text-center">Azure DevOps</p>
+                        <div class="p-4" style="background-color: #432b55;">
+                            <h3 class="text-xl font-bold"
+                                style="font-family: 'Josefin Sans', sans-serif; color: #d2aeff;">
+                                Introducing v0: Generative UI
+                            </h3>
+                            <p class="text-sm" style="font-family: 'Prompt', sans-serif; color: #d0affa;">
+                                Discover the power of Vercel's new generative AI tool.
+                            </p>
                         </div>
                     </div>
-                </div>
-            </div>
+                    <div class="relative overflow-hidden rounded-lg shadow-lg">
+                        <div class="aspect-video">
+                            <style>
+                                .embed-container {
+                                    position: relative;
+                                    padding-bottom: 56.25%;
+                                    height: 0;
+                                    overflow: hidden;
+                                    max-width: 100%;
+                                }
+
+                                .embed-container iframe,
+                                .embed-container object,
+                                .embed-container embed {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            </style>
+                            <div class='embed-container'><iframe src='https://www.youtube.com/embed/0QAacHwyqZA'
+                                    frameborder='0' allowfullscreen></iframe></div>
+                        </div>
+                        <div class="p-4" style="background-color: #432b55;">
+                            <h3 class="text-xl font-bold"
+                                style="font-family: 'Josefin Sans', sans-serif; color: #d2aeff;">
+                                Introducing the frontend cloud
+                            </h3>
+                            <p class="text-sm" style="font-family: 'Prompt', sans-serif; color: #d0affa;">
+                                Learn how Vercel's platform can revolutionize your web development.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="relative overflow-hidden rounded-lg shadow-lg">
+                        <div class="aspect-video">
+                            <style>
+                                .embed-container {
+                                    position: relative;
+                                    padding-bottom: 56.25%;
+                                    height: 0;
+                                    overflow: hidden;
+                                    max-width: 100%;
+                                }
+
+                                .embed-container iframe,
+                                .embed-container object,
+                                .embed-container embed {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            </style>
+                            <div class='embed-container'><iframe src='https://www.youtube.com/embed/VsunJjDs6gM'
+                                    frameborder='0' allowfullscreen></iframe></div>
+                        </div>
+                        <div class="p-4" style="background-color: #432b55;">
+                            <h3 class="text-xl font-bold"
+                                style="font-family: 'Josefin Sans', sans-serif; color: #d2aeff;">
+                                Using Vercel KV with Svelte
+                            </h3>
+                            <p class="text-sm" style="font-family: 'Prompt', sans-serif; color: #d0affa;">
+                                Explore how to leverage Vercel's key-value store with Svelte.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+        </div>
         </section>
-    </div>
 
-    <div style="height: 100vh;" id="youtube" class="division">
-
-
-    </div>
-
-    <div id="leadership" style="min-height: 100vh; width: 100%;" class="division">
-        <section class="w-full py-16 md:py-12 lg:py-8 flex items-center justify-center exp-section">
-            <div class="container-exp">
-                <div class="text-center">
-                    <h2 class="title text-4xl sm:text-4xl md:text-6xl lg:text-6xl xl:text-6xl">Leadership</h2>
-                    <p class="subtitle text-2xl sm:text-2xl md:text-4xl lg:text-4xl xl:text-4xl exp_subhead">
-                        Leading by Example
-                    </p>
+        <div id="leadership" style="min-height: 100vh; width: 100%;" class="division">
+            <section class="w-full py-16 md:py-12 lg:py-8 flex items-center justify-center exp-section">
+                <div class="container-exp">
+                    <div class="text-center">
+                        <h2 class="title text-4xl sm:text-4xl md:text-6xl lg:text-6xl xl:text-6xl">Leadership</h2>
+                        <p class="subtitle text-2xl sm:text-2xl md:text-4xl lg:text-4xl xl:text-4xl exp_subhead">
+                            Leading by Example
+                        </p>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="job-title text-2xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl">Yearly
+                                Project
+                                Mentor</div>
+                            <div class="company text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl">Association for
+                                Computing Machinery, MPSTME</div>
+                            <div class="date text-l sm:text-l md:text-l lg:text-l xl:text-l">Sep 2022 – Present
+                            </div>
+                            <div class="description text-l sm:text-l md:text-l lg:text-l xl:text-l">
+                                <ul>
+                                    <li> • Mentored junior students in web development and machine learning
+                                        projects.</li>
+                                    <li> • Provided technical guidance and ensured successful project completion.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="job-title text-2xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl">Founding
+                                Head
+                            </div>
+                            <div class="company text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl">Tark the
+                                Debating
+                                Society</div>
+                            <div class="date text-l sm:text-l md:text-l lg:text-l xl:text-l">Sep 2023 – May 2024
+                            </div>
+                            <div class="description text-l sm:text-l md:text-l lg:text-l xl:text-l">
+                                <ul>
+                                    <li> • Established and managed a debating society, organizing a year-long series
+                                        of
+                                        events.</li>
+                                    <li> • Orchestrated the first hackathon of the academic year, fostering
+                                        problem-solving
+                                        and innovation.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="job-title text-2xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl">
+                                Technical Head
+                            </div>
+                            <div class="company text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl">Institution of
+                                Engineering and Technology, MPSTME</div>
+                            <div class="date text-l sm:text-l md:text-l lg:text-l xl:text-l">Sep 2021 – April 2023
+                            </div>
+                            <div class="description text-l sm:text-l md:text-l lg:text-l xl:text-l">
+                                <ul>
+                                    <li> • Led workshops on computer science and robotics, catering to students at
+                                        various
+                                        levels.</li>
+                                    <li> • Elevated the technical skills and knowledge of the student body through
+                                        well-structured events and programs.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="job-title text-2xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl">Yearly Project
-                            Mentor</div>
-                        <div class="company text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl">Association for
-                            Computing Machinery, MPSTME</div>
-                        <div class="date text-l sm:text-l md:text-l lg:text-l xl:text-l">Sep 2022 – Present</div>
-                        <div class="description text-l sm:text-l md:text-l lg:text-l xl:text-l">
-                            <ul>
-                                <li> • Mentored junior students in web development and machine learning projects.</li>
-                                <li> • Provided technical guidance and ensured successful project completion.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="job-title text-2xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl">Founding Head
-                        </div>
-                        <div class="company text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl">Tark the Debating
-                            Society</div>
-                        <div class="date text-l sm:text-l md:text-l lg:text-l xl:text-l">Sep 2023 – May 2024</div>
-                        <div class="description text-l sm:text-l md:text-l lg:text-l xl:text-l">
-                            <ul>
-                                <li> • Established and managed a debating society, organizing a year-long series of
-                                    events.</li>
-                                <li> • Orchestrated the first hackathon of the academic year, fostering problem-solving
-                                    and innovation.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="job-title text-2xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl">Technical Head
-                        </div>
-                        <div class="company text-xl sm:text-xl md:text-xl lg:text-xl xl:text-xl">Institution of
-                            Engineering and Technology, MPSTME</div>
-                        <div class="date text-l sm:text-l md:text-l lg:text-l xl:text-l">Sep 2021 – April 2023</div>
-                        <div class="description text-l sm:text-l md:text-l lg:text-l xl:text-l">
-                            <ul>
-                                <li> • Led workshops on computer science and robotics, catering to students at various
-                                    levels.</li>
-                                <li> • Elevated the technical skills and knowledge of the student body through
-                                    well-structured events and programs.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
+            </section>
+        </div>
 
 
 </body>
