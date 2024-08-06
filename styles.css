@@ -1,6 +1,6 @@
-@import url('source/josefinSans.css');
-@import url('source/badScript.css');
-@import url('source/prompt.css');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;500&display=swap');
 @import "~lucide-static/font/Lucide.css";
 
 html {
