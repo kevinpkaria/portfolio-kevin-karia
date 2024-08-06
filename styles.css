@@ -450,10 +450,6 @@ nav {
     padding: 96px 0;
   }
 
-  .container-exp {
-    padding-top: 100px;
-  }
-
   .timeline {
     margin-top: 64px;
   }
@@ -486,7 +482,6 @@ nav {
 .projects-section {
   width: 100%;
   padding-top: 100px;
-  padding-bottom: 12rem;
 }
 
 .container {
@@ -602,7 +597,34 @@ nav {
   color: #ffffff;
 }
 
-.svg-icon {
-  fill: #d2aeff;
-  stroke: #d2aeff;
+.skills-section {
+  width: 100%;
+  padding-top: 100px;
+}
+
+.exp-section {
+  width: 100%;
+  padding-top: 100px;
+}
+
+.skill_card {
+  background-color: #432b55; 
+  color: #d2aeff;
+  overflow: hidden;
+}
+
+.skill_card img {
+  filter: drop-shadow(0px 100px 0 #d2aeff); 
+  transform: translateY(-100px);
+}
+
+.skill_card:hover {
+  background-color: #d2aeff;
+  color: #432b55;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.skill_card:hover img {
+  filter: drop-shadow(0px 100px 0 #432b55);
+
 }
