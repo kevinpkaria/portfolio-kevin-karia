@@ -616,7 +616,7 @@ nav {
 }
 
 .skill_card img {
-  filter: invert(70%) sepia(30%) saturate(2166%) hue-rotate(206deg) brightness(109%) contrast(105%);
+  filter: brightness(0) saturate(100%) invert(74%) sepia(29%) saturate(968%) hue-rotate(207deg) brightness(97%) contrast(110%);
 }
 
 .skill_card:hover {
