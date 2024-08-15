@@ -632,7 +632,6 @@ nav {
 footer {
   width: 99%;
   margin: 0 auto;
-
   margin-bottom: 5px;
   left: 0;
   right: 0;
@@ -642,14 +641,13 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   border-radius: 0.5rem;
 }
 
 footer .text-white {
   color: #d2aeff;
   font-family: 'Prompt', sans-serif;
-  font-size: 1.2rem;
+  font-size: 18px;
 }
 
 footer .flex.space-x-4 {
@@ -676,6 +674,7 @@ footer .flex.space-x-4 a:last-child {
 
   footer .text-white {
     margin-right: 1rem;
+    font-size: 12px;
   }
 
   footer .flex.space-x-4 {

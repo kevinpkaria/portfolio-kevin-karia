@@ -35,11 +35,6 @@
             "source": "/mail",
             "destination": "mailto:hello@kevinpkaria.in",
             "statusCode": 307
-        },
-        {
-            "source": "/german-notes",
-            "destination": "https://svkmmumbai-my.sharepoint.com/:f:/g/personal/kevin_karia57_nmims_in/EuPUG5fKNGdFsSqWzblZRLkB0nNF-nArkvTs-cAAjKw_9A?e=2WU3It",
-            "statusCode": 307
         }
     ]
 }
