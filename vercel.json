@@ -35,6 +35,11 @@
             "source": "/mail",
             "destination": "mailto:hello@kevinpkaria.in",
             "statusCode": 307
+        },
+        {
+            "source": "/mumpy",
+            "destination": "https://drive.google.com/drive/folders/1kYov1I2SMsHmp2DTfwtSoXilOTZC4UrX?usp=drive_link",
+            "statusCode": 307
         }
     ]
 }
